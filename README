@@ -1,0 +1,34 @@
+# Secure Remote Password (SRP) Protocol Implementation
+
+## Overview
+This project implements the Secure Remote Password (SRP) protocol using Python. The SRP protocol allows for secure authentication between a client and server without transmitting sensitive information over the network.
+
+## Requirements
+To run this project, you need:
+- Python 3.x installed on your system.
+
+## Instructions
+1. Clone or download the project repository to your local machine.
+
+2. Navigate to the project directory.
+
+3. Run the `main.py` script using Python:
+   ```
+   python main.py
+   ```
+
+4. The script will generate a shared key based on the Diffie-Hellman key exchange and hash it using SHA-256. The generated shared key will be displayed on the console.
+
+## Notes
+- Make sure to review and understand the code before running it.
+- Modify the Diffie-Hellman parameters (`p` and `g`) in the `main.py` script as needed.
+- Ensure that the provided Diffie-Hellman parameters are agreed upon by both the client and server.
+- This implementation uses Python's built-in libraries for arbitrary precision integers and hashing using SHA-256.
+
+## References
+- [Wikipedia: Secure Remote Password protocol](https://en.wikipedia.org/wiki/Secure_Remote_Password_protocol)
+- [Python Documentation: hashlib - Secure hashes and message digests](https://docs.python.org/3/library/hashlib.html)
+
+---
+
+Feel free to customize this README file further based on your specific requirements or additional instructions!
