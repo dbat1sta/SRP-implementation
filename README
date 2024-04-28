@@ -19,16 +19,13 @@ To run this project, you need:
 
 4. The script will generate a shared key based on the Diffie-Hellman key exchange and hash it using SHA-256. The generated shared key will be displayed on the console.
 
-## Notes
+NOTES
 - Make sure to review and understand the code before running it.
 - Modify the Diffie-Hellman parameters (`p` and `g`) in the `main.py` script as needed.
 - Ensure that the provided Diffie-Hellman parameters are agreed upon by both the client and server.
 - This implementation uses Python's built-in libraries for arbitrary precision integers and hashing using SHA-256.
 
-## References
+REFERENCES 
 - [Wikipedia: Secure Remote Password protocol](https://en.wikipedia.org/wiki/Secure_Remote_Password_protocol)
 - [Python Documentation: hashlib - Secure hashes and message digests](https://docs.python.org/3/library/hashlib.html)
 
----
-
-Feel free to customize this README file further based on your specific requirements or additional instructions!
